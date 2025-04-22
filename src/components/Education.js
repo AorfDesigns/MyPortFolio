@@ -49,23 +49,21 @@ const Education = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
             type="Online Coursework"
-            time="2021-Present"
-            place="Udemy, Coursera, Sololearn"
-            info="Completed coursework in advanced topics such as Frontend Development, Responsive Design, and User Interface (UI) Engineering. Acquired skills in creating visually appealing and interactive web interfaces, ensuring a seamless user experience across various devices."
+            time="2024"
+            place="GomyCode"
+            info="Completed coursework in advanced topics such as Frontend Development, Responsive Design. Acquired skills in creating visually appealing and interactive web interfaces, ensuring a seamless user experience across various devices."
           />
-
-          <Details
-            type="Germane International"
-            time="2021-Present"
-            place="Lagos State, Nigeria"
-            info="Acquired comprehensive career development skills through focused coursework on Chegg, delving into leadership principles, time management strategies, emotional intelligence, and critical thinking techniques. Engaged in practical learning experiences that extended beyond theoretical concepts, fostering a deep understanding of how to navigate and excel in professional settings. These skills contribute to a well-rounded foundation for personal and career growth, showcasing the ability to lead, manage time effectively, understand emotions, and think critically in various scenarios."
+           <Details
+            type="National Diploma"
+            time="2013"
+            place="Yaba College of Technology"
+            info="I successfully completed my National Diploma in Computer Science at Yaba College of Technology (Yabatech)."
           />
-
-          <Details
-            type="Career Development"
-            time="2022-Present"
-            place="Chegg"
-            info="Completed intensive coursework in advanced frontend development topics, gaining hands-on experience in understanding the intricacies of the web, setting environment variables, implementing algorithms, and creating flowcharts. Effectively applied theoretical knowledge to solve real-world problems, acquiring practical skills that go beyond online learning. Explored the nuances of frontend engineering through physical engagement, contributing to a deeper understanding of how to build robust and efficient web applications."
+  <Details
+            type="Higher National Diploma"
+            time="2013"
+            place="Yaba College of Technology"
+            info="I successfully completed my Higher National Diploma in Computer Science at Yaba College of Technology (Yabatech)."
           />
         </ul>
       </div>

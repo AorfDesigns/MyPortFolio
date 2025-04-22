@@ -22,7 +22,7 @@ const Logo = ({ display }) => {
           transition: { duration: 1, repeat: Infinity },
         }}
       >
-        Obadea
+        AR
       </MotionLink>
     </div>
   );

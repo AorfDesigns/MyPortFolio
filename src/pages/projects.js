@@ -159,8 +159,8 @@ const Projects = () => {
   return (
     <>
       <Head>
-        <title>Obadea | Projects Page</title>
-        <meta name="description" content="Obadiah Projects" />
+        <title>AbdulRahman | Projects Page</title>
+        <meta name="description" content="AbdulRahman Projects" />
       </Head>
       <TransitionEffect />
 
@@ -168,7 +168,7 @@ const Projects = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Imagination Trumps Knowledge!"
-            className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+            className="mb-16 lg:text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
 
           <div className=" flex justify-end mb-10 mt-4 sm:justify-center text-[0.9rem] uxs:grid uxs:grid-cols-3 uxs:text-[0.5rem]">
@@ -188,9 +188,6 @@ const Projects = () => {
           </div>
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-            <div className="col-span-12 z-10">
-              <Slider className="z-100" />
-            </div>
 
             {filteredItems.map((item, idx) => (
               <Project

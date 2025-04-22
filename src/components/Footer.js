@@ -15,7 +15,7 @@ const Footer = () => {
             target="_blank"
           >
             {' '}
-            Obadea
+            AbdulRahman Aminu
           </Link>
           <span className="text-primary dark:text-primaryDark text-3xl px-1">
             {' '}

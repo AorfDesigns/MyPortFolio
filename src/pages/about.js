@@ -2,7 +2,7 @@ import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 import React, { useEffect, useRef } from 'react';
-import profilePic from '../../public/images/profile/obadea.jpg';
+import profilePic from '../../public/images/profile/Rahaman.jpg';
 import Image from 'next/image';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Skills from '@/components/Skills';
@@ -38,7 +38,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Obadea | About Page</title>
+        <title>AbdulRahman | About Page</title>
         <meta name="description" content="About Obadiah" />
       </Head>
       <TransitionEffect />
@@ -46,7 +46,7 @@ const about = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Passion Fuels Purpose!"
-            className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+            className="mb-16 lg:!text-7xl sm:!text-4xl xs:!text-4xl sm:mb-8 whitespace-nowrap"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
@@ -54,7 +54,7 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm Obadiah Gbenga, a Front End Developer and UI/UX designer
+                Hi, I'm AbdulRahman Aminu, a Front End Developer and UI/UX designer
                 with a passion for creating beautiful, functional, and
                 user-centered digital experiences. With 3 years of experience in
                 the field. I am always looking for new and innovative ways to
@@ -81,7 +81,7 @@ const about = () => {
                 alt="Obadiah Gbenga"
                 className="w-full h-auto rounded-2xl"
                 priority
-                sizes="(max-width:768px) 100vw,
+                sizes="(max-width:868px) 100vw,
                 (max-width: 1200px) 50vw,
                 33vw"
               />

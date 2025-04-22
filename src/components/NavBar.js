@@ -25,7 +25,7 @@ const CustomLink = ({ href, title, className = '' }) => {
       {title}
 
       <span
-        className={`h-[2px] inline-block bg-dark absolute left-0 -bottom-0.5 
+        className={`h-[2px] inline-block bg-green-500 absolute left-0 -bottom-0.5 
         group-hover:w-full transition-[width] ease duration-300 dark:bg-light  ${
           router.asPath === href ? 'w-full' : 'w-0'
         }`}
@@ -103,11 +103,11 @@ const NavBar = () => {
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="m-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
-          <CustomLink href="/articles" title="Articles" className="ml-4" />
+          
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://twitter.com/obadea0"
+            href="https://x.com/heisabdulrahman"
             target="_blank"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -116,7 +116,7 @@ const NavBar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="https://github.com/obadea"
+            href="https://github.com/AorfDesigns"
             target="_blank"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -125,7 +125,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/obadea/"
+            href="https://www.linkedin.com/in/abdulrahman-aminu-b648041ba/"
             target="_blank"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -133,15 +133,7 @@ const NavBar = () => {
           >
             <LinkedInIcon />
           </motion.a>
-          <motion.a
-            href="https://pin.it/f3FJ8uQtC"
-            target="_blank"
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3 dark:bg-light rounded-full"
-          >
-            <PinterestIcon />
-          </motion.a>
+         
           {/* Coming Soon */}
           {/* <motion.a
             href="/"

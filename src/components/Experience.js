@@ -57,12 +57,81 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Volunteer"
-            company="Google Developer Student Club(GDSC)"
-            companyLink="https://dscunilag.dev/"
-            time="2023"
-            address="University of Lagos, Lagos"
-            work="Collaborated with a team so as to make the DevFest Student Edition 2023 Event possible. Acquired valuable insights and experiences through study sessions and interactions with senior developers such as Prosper Otemuyiwa(CEO of My Eden Life),Salim Oyinlola(Student Ambassador of Microsoft)."
+            position="Lead Frontend Engineer | Social Media App (Remote)"
+            company="CitizenX"
+            companyLink="https://citizenx-dashboard-sbqx.onrender.com/login"
+            time="2024 - 2025"
+            address="Remote, Lagos"
+            work="• Designed and developed responsive web applications using React.js, 
+improving user engagement by 30% through optimized UI/UX.
+• Collaborated with Enterprise Architects to define software requirements, 
+ensuring alignment with business objectives.
+• Wrote clean, efficient, and maintainable code, reducing technical debt by 
+25% through refactoring and automation scripts.
+• Implemented automated testing with Jest, achieving 90% test coverage 
+and minimizing production bugs.
+• Utilized New Relic to monitor system performance, identifying and 
+resolving bottlenecks to enhance application speed by 15%.
+• Led a team of 3 developers in an agile environment, delivering projects 
+ahead of deadlines while maintaining high quality"
+          />
+        </ul>
+        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+          <Details
+            position="Frontend Software Engineer | Fintech Startup (Remote)"
+            company="RoutePay Fintech"
+            companyLink="http://Portal.routepay.com"
+            time="2023 - 2024"
+            address="Remote, Lagos"
+            work="• Developed and deployed customer-facing features using React Native for 
+mobile (iOS/Android), increasing user retention by 25%.
+• Built scalable web applications with React, Next.js, and TypeScript, 
+integrating RESTful APIs to streamline financial workflows.
+• Built scalable web applications with React, Next.js, and TypeScript, 
+integrating RESTful APIs to streamline financial workflows.
+• Implemented automated testing with Jest and Cypress, achieving 95% 
+test coverage and reducing bugs by 30%.
+• Mentored 3 junior engineers, enhancing team productivity through pair 
+programming and code reviews.
+• Contributed to CI/CD pipelines on Azure, cutting deployment times by 
+40%"
+          />
+        </ul>
+        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+          <Details
+            position="Frontend Engineer"
+            company="NailSavvy"
+            companyLink="http://Portal.routepay.com"
+            time="2022 - 2023"
+            address="Remote, Lagos"
+            work="• Built and maintained Angular-based web applications, supporting over 
+500,000 users with seamless functionality.
+• Automated repetitive tasks using scripting tools, saving 10+ hours of 
+manual work per week.
+• Conducted code reviews and debugging sessions, improving code quality 
+and team knowledge sharing.
+• Worked independently on critical features, delivering solutions that 
+increased customer satisfaction by 20%.
+• Documented development processes and ensured software updates 
+aligned with the latest industry standards."
+          />
+        </ul>
+        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+          <Details
+            position="Junior Front-End Developer
+"
+            company="BlooCode"
+            companyLink=""
+            time="2021 - 2022"
+            address="Remote, Lagos"
+            work="• Collaborated with back-end engineers to integrate business logic into 
+client applications.
+• Worked with designers to ensure accurate design implementation and 
+cohesive visual results.
+• Maintained high coding standards, including testing and documentation 
+for reliable and maintainable code.
+• Streamlined user authentication and authorization flow, improving user 
+experience and security using React."
           />
         </ul>
       </div>
