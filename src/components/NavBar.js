@@ -220,15 +220,7 @@ const NavBar = () => {
               >
                 <LinkedInIcon />
               </motion.a>
-              <motion.a
-                href="https://pin.it/f3FJ8uQtC"
-                target="_blank"
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }}
-                className="w-6 mx-3 sm:mx-1 bg-light rounded-full"
-              >
-                <PinterestIcon />
-              </motion.a>
+              
               {/* Dribble Coming soon */}
               {/* <motion.a
               href="/"
