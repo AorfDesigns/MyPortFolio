@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Head>
         <title>AbdulRahman PortFolio</title>
-        <meta name="description" content="Welcome to Obadea portfolio" />
+        <meta name="description" content="Welcome to AbdulRahman PortFolio" />
       </Head>
       <TransitionEffect />
       <main
