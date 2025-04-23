@@ -50,7 +50,7 @@ I focus on developing and optimizing user interfaces, ensuring they are both vis
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/AbdulRahman_Aminu_FrontEndCV.pdf"
+                  href="/Abdulrahman_Aminu_FrontEndCV.pdf"
                   target="_blank"
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark
                   
@@ -75,11 +75,13 @@ I focus on developing and optimizing user interfaces, ensuring they are both vis
 
         <HireMe />
         <div className="absolute right-8 bottom-8 inline-block w-20 md:hidden">
+          <Link href={"https://wa.me/message/LCKVE7YA74JKN1"} >
           <Image
             src={lightBlub}
             alt="Obadiah Gbenga"
             className="w-full h-auto"
           />
+          </Link>
         </div>
       </main>
     </>
