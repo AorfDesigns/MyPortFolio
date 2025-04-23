@@ -46,7 +46,7 @@ const about = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Passion Fuels Purpose!"
-            className="mb-16 lg:!text-7xl sm:!text-4xl xs:!text-4xl sm:mb-8 whitespace-nowrap"
+            className="mb-16 lg:!text-7xl sm:!text-4xl xs:!text-2xl sm:mb-8 whitespace-nowrap"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
