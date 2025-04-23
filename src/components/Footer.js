@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex items-center lg:py-2">
           Built by&nbsp;
           <Link
-            href="https://twitter.com/obadea0"
+            href="https://x.com/heisabdulrahman"
             className="underline underline-offset-2"
             target="_blank"
           >
@@ -23,7 +23,7 @@ const Footer = () => {
           </span>{' '}
         </div>
         <Link
-          href="mailto:obadeagbenga@gmail.com"
+          href="mailto:rahformatives@gmail.com"
           // target="_blank"
           className="underline underline-offset-2"
         >
