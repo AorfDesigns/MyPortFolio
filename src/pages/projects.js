@@ -109,7 +109,7 @@ const Project = ({ title, type, img, link, github }) => {
             Visit
           </Link>
           <Link href={github} target="_blank" className="w-8 md:w-6">
-            <GithubIcon />
+           
           </Link>
         </div>
       </div>
