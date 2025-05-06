@@ -69,7 +69,7 @@ const FramerImage = motion(Image);
 //   );
 // };
 
-const Project = ({ title, type, img, link, github }) => {
+const Project = ({ title, type, img, link, }) => {
   return (
     <article className="w-full display flex flex-col items-center justify-center rounded-2xl shadow-2xl   bg-light p-6 dark:bg-dark dark:border-light col-span-6 xs:p-4 sm:col-span-12 ">
       <Link
@@ -108,9 +108,7 @@ const Project = ({ title, type, img, link, github }) => {
           >
             Visit
           </Link>
-          <Link href={github} target="_blank" className="w-8 md:w-6">
-           
-          </Link>
+          
         </div>
       </div>
     </article>
