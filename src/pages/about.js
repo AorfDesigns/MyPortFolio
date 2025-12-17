@@ -57,7 +57,7 @@ const about = () => {
               <p className="font-medium">
                 Hi, I'm AbdulRahman Aminu, a Front End Developer and UI/UX designer
                 with a passion for creating beautiful, functional, and
-                user-centered digital experiences. With 3 years of experience in
+                user-centered digital experiences. With 5 years of experience in
                 the field. I am always looking for new and innovative ways to
                 bring my clients' visions to life.
               </p>
