@@ -193,8 +193,9 @@ const NavBar = () => {
               
             </nav>
             <nav className="flex items-center justify-center flex-wrap mt-2">
+              {/* Mobile: point X (Twitter) to the aorf_designs account as requested */}
               <motion.a
-                href="https://twitter.com/obadea0"
+                href="https://x.com/aorf_designs?s=11"
                 target="_blank"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
@@ -211,8 +212,9 @@ const NavBar = () => {
               >
                 <GithubIcon />
               </motion.a>
+              {/* Mobile: point LinkedIn to Abdulrahman Aminu as requested */}
               <motion.a
-                href="https://www.linkedin.com/in/obadea/"
+                href="https://www.linkedin.com/in/abdulrahman-aminu-b648041ba/"
                 target="_blank"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
