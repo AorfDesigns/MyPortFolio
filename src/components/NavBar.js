@@ -203,8 +203,9 @@ const NavBar = () => {
               >
                 <TwitterIcon />
               </motion.a>
+              {/* Mobile: point GitHub to AorfDesigns as requested */}
               <motion.a
-                href="https://github.com/obadea"
+                href="https://github.com/AorfDesigns"
                 target="_blank"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
