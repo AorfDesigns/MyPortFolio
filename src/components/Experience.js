@@ -57,6 +57,17 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Founder"
+            company="AORF Designs"
+            companyLink="https://github.com/AorfDesigns"
+            time="April 2022 - Present"
+            address="Lagos, Nigeria (Remote)"
+            work={`AORF Designs is a creative and technology-driven brand specializing in Branding, Product Design, Software Development, and Marketing. We help startups, small-scale businesses, and established brands create impactful solutions that drive growth and visibility.`}
+          />
+        </ul>
+
+        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+          <Details
             position="Lead Frontend Engineer | Social Media App (Remote)"
             company="CitizenX"
             companyLink="https://citizenx-dashboard-sbqx.onrender.com/login"
